@@ -56,16 +56,17 @@
   justify-content: space-around;
 }
 .div-hijo {
-  background-color: blue;
-  align-items: center;
   margin: 25px;
   width: 300px;
   height: 300px;
   display: flex;
-  justify-content: space-between;
-}
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
   .img {
-    width: 50%;
+    width: 60%;
+    display: flex;
   }
  
 .litswrapper {
@@ -87,7 +88,7 @@
   width: 100%;
   position:center;
   margin-left: auto;
-  margin-top: 350px;
+  margin-top: 100px;
   margin-right: auto;
   border-width: 1px solid;
   display: flex;
@@ -110,11 +111,10 @@
 .contacto {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
+ border-top: grey;
   margin-left: auto;
   margin-right: auto;
-}
-.contacto ol {
-  display: block;
 }
 .movil{
   width:12px;
@@ -134,14 +134,9 @@
     font-size: x-small;
     color: black;
   }
-.input {
-  background-color: transparent;
-  padding: 14px;
-  outline: none;
-  margin-bottom: 15px;
-}
-.footer {
   
+.footer {
+  margin-top: 80px;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -159,7 +154,7 @@
   align-items: center;
 }
 .footer2{
-  margin-top: 25px;
+  margin-top: 35px;
   width: 100%;
   height: 50px;
   display: flex;
